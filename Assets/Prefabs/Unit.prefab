@@ -529,7 +529,6 @@ GameObject:
   - component: {fileID: 7920062083422112931}
   - component: {fileID: 8890043195253178062}
   - component: {fileID: 4671751696293485744}
-  - component: {fileID: 867487322385728931}
   - component: {fileID: -4729340728770631841}
   - component: {fileID: 6998969079783144972}
   - component: {fileID: 6831471732610214843}
@@ -574,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c4863f5c9f66a449c6f3bbfda42981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumActionPoints: 9
+  maximumActionPoints: 2
   isEnemy: 0
 --- !u!65 &8890043195253178062
 BoxCollider:
@@ -604,18 +603,6 @@ MonoBehaviour:
   moveSpeed: 4
   rotateSpeed: 10
   maxMoveDistance: 5
---- !u!114 &867487322385728931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7920062083422112929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fcc7635d82f129448535331676d18fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-4729340728770631841
 MonoBehaviour:
   m_ObjectHideFlags: 0
